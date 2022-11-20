@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Todo Web App</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- task input -->
+        <div class="task_input">
+            <input type="text" name="task" id="input-task" placeholder="Enter your task here....">
+        </div>
+        <!-- end of task input -->
+        <!-- tabs and button start -->
+        <div class="controls">
+            <div class="task_filter">
+                <span id="all" class="active">All Task</span>
+                <span id="pending">Pending Task</span>
+                <span id="completed">Completed Task</span>
+            </div>
+            <button class="btn clear_btn">Clear Task</button>
+        </div>
+        <!-- end of tab and button -->
+        <ul class="task_list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
